@@ -18,7 +18,7 @@ PyTest и Selenium для тестирования интернет-магази
 Файл requirements.txt содержит перечень необходимых библиотек для работы проекта.
 
 Команды для запуска всех тестов 
-python -m pytest -v --driver Chrome --driver-path driver/chromedriver.exe  tests/test_MainPage.py
+   python -m pytest -v --driver Chrome --driver-path driver/chromedriver.exe  tests/test_MainPage.py
 
 Тесты проверяют видимость кнопок на главной странице сайта, их кликабельность, корректность названия кнопок, 
 соответствие разделов, куда ведет клик по кнопке.
